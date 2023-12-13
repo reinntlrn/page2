@@ -1,0 +1,175 @@
+body {
+    background-color: color-mix(in srgb, black 90%, lightblue  10%); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    margin: 20px;
+  }
+
+  .post {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .background {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 44%;
+    
+  }
+  
+  
+  .post img, .post video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .btn {
+    padding: 10px 35px;
+  background: #022c3ded;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: 500;
+  border-radius: 20px;
+  color: aliceblue;
+  
+  }
+
+  .headerfg {
+    position: absolute;
+    height: 12%;
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background: #022c3ded;
+    opacity: 85%;
+  }
+
+  .logout {
+    position: relative;
+    height: 50%;
+    float: right;
+    margin-top: 1.5%;
+    margin-right: 8.5%;
+    opacity: 100%;
+    color:black;
+  }
+ 
+
+  .lg {
+    position: absolute;
+    margin-top: 2.4%;
+    margin-left: 92.2%;
+    font-family: arial;
+    text-decoration: none;
+    color: aliceblue;
+    opacity: 79%;
+  }
+  .pst {
+    position: absolute;
+    margin-top: 2.4%;
+    margin-left: 81.2%;
+    font-family: arial;
+    text-decoration: none;
+    color: aliceblue;
+    opacity: 79%;
+    text-decoration-line: underline;
+  }
+
+  .logo {
+    position: absolute;
+    margin-top: -2%;
+    margin-left: -2%;
+
+  }
+
+  .clr {
+    color: aliceblue;
+  }
+  
+  .ft {
+    position: fixed;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    color: aliceblue;
+    opacity: 25%;
+ }
+ .container { 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+  }
+  .btnn { 
+    padding: 10px 35px;
+    background: #022c3ded;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 500;
+    border-radius: 20px;
+    color: aliceblue;
+    
+  }
+  .popup {
+  height: 400px;
+  width: 600px;
+  background: rgb(18, 59, 99);
+  border-radius: 6%;
+  position:absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%) ;
+  padding: 0 30px 30px;
+  color: aliceblue;
+  visibility: hidden;
+  transition: tranform 0.4s, top 0.4s;
+    
+  }
+  .open-popup{
+    visibility: visible;
+    top: 400%;
+    
+  }
+  .popup h2{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+    }
+    .popup button{
+      width: 400;
+      padding: 10px 0;
+      background: #022c3ded;
+      margin-top: 50px;
+      color: aliceblue;
+      border: 0;
+      outline: none;
+      font-size: 30px;
+      border-radius: 4px;
+      cursor: pointer;
+  
+        
+      }
+
+
+
+ .content, .image, .video, .username {
+  background-color: transparent;
+  border-color: aliceblue;
+  color: aliceblue;
+ 
+
+
+ }
+ 
